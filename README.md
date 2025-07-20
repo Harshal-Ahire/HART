@@ -1,5 +1,5 @@
 # Overview
-This project provides a web-based application to predict the risk of heart disease using machine learning models. The application leverages a Logistic Regression model to classify individuals into two categories: high risk or low risk of heart disease based on various medical features.
+HART (Heart Attack Risk Tracker)This project provides a web-based application to predict the risk of heart disease using machine learning models. The application leverages a Logistic Regression model to classify individuals into two categories: high risk or low risk of heart disease based on various medical features.
 
 # Features
 User-Friendly Interface: A simple and intuitive web form to input medical features related to heart health.
