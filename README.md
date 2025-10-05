@@ -1,5 +1,7 @@
 # Overview
 HART (Heart Attack Risk Tracker), This project provides a web-based application to predict the risk of heart disease using machine learning models. The application leverages a Logistic Regression model to classify individuals into two categories: high risk or low risk of heart disease based on various medical features.
+🎬 [Watch Project Demo](https://github.com/Harshal-Ahire/HART/releases/download/v1.0/Heart-Disease.Risk.Classification.-.Personal.-.Microsoft_.Edge.2025-01-30.11-43-44.mp4)
+
 
 # Features
 User-Friendly Interface: A simple and intuitive web form to input medical features related to heart health.
