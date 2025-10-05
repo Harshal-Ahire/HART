@@ -1,33 +1,84 @@
-# Overview
-HART (Heart Attack Risk Tracker), This project provides a web-based application to predict the risk of heart disease using machine learning models. The application leverages a Logistic Regression model to classify individuals into two categories: high risk or low risk of heart disease based on various medical features.
-🎬 [Watch Project Demo](https://youtu.be/Qbb6hJWcU1s)
+## **About**
+- End-to-end **web app for heart disease risk prediction** using a **Logistic Regression model** built with Flask.  
+- Classifies individuals into **high/low heart disease risk** categories based on multiple medical parameters.  
+- Uses the **Kaggle Heart Disease Dataset** containing clinical and lifestyle-related attributes.  
+- Includes **data preprocessing** (scaling and encoding) for accurate and consistent predictions.  
+- 🎬 **Watch the project demo:** [HART on YouTube](https://www.youtube.com/watch?v=Qbb6hJWcU1s)
 
+---
 
-# Features
-User-Friendly Interface: A simple and intuitive web form to input medical features related to heart health.
-Heart Disease Prediction: The model predicts whether a person is at low or high risk of heart disease based on their input.
-Machine Learning Model: A Logistic Regression model that classifies heart disease risk using medical data.
-Scalable Architecture: The system is designed to be easily expandable, allowing for the addition of more features or different models in the future.
+## **Dataset Overview**
+- **Dataset Name:** Heart Disease Dataset (Kaggle)  
+- **Number of Records:** ~303 entries  
+- **Features:**  
+  - Age  
+  - Sex  
+  - Chest pain type (cp)  
+  - Resting blood pressure (trestbps)  
+  - Cholesterol level (chol)  
+  - Fasting blood sugar (fbs)  
+  - Resting ECG results (restecg)  
+  - Maximum heart rate achieved (thalach)  
+  - Exercise-induced angina (exang)  
+  - ST depression (oldpeak)  
+  - Slope of peak exercise ST segment (slope)  
+  - Number of major vessels (ca)  
+  - Thalassemia (thal)  
+- **Target:** Presence or absence of heart disease (binary classification)  
+- **Source:** [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 
-# Technologies Used
-Flask: A Python web framework to build the web application.
-Joblib: Used to load pre-trained models, scaler, and label encoder.
-NumPy: For numerical operations, including scaling the input data.
-HTML: For designing the front-end interface and ensuring a user-friendly experience.
+---
 
-# Dataset
-The model is trained on the Heart Disease dataset from Kaggle. The dataset contains various features, such as age, sex, blood pressure, cholesterol levels, maximum heart rate, chest pain type, exercise-induced angina, and other medical factors, which are used to predict the presence of heart disease.
+## **Model Overview**
 
-You can access the dataset here: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+| Parameter                     | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| **Model Type**                 | Logistic Regression                                                        |
+| **Objective**                  | Binary classification (high/low risk)                                      |
+| **Optimizer**                  | Gradient Descent (via scikit-learn implementation)                         |
+| **Scaling**                    | StandardScaler applied to numerical features                               |
+| **Encoding**                   | LabelEncoder for categorical variables                                     |
+| **Train/Test Split**           | 80/20                                                                      |
+| **Evaluation Metric**          | Accuracy, Precision, Recall, F1-score                                      |
 
-# Installation and Setup
-Please refer to the requirements.txt file for a list of dependencies required to run the project.
+---
 
-# License
+## **Key Features**
+- Input **medical features** via a simple web form  
+- Predict **heart disease risk (high/low)** instantly  
+- **Preprocessed pipeline** ensures consistent input scaling and encoding  
+- Built with **Flask backend** and a lightweight **HTML frontend**  
+- Clean and interpretable prediction flow suitable for demonstrations  
+
+---
+
+## **Tech Stack**
+- **Backend:** Flask (Python)  
+- **Model:** Logistic Regression (scikit-learn)  
+- **Data Processing:** NumPy, Joblib  
+- **Frontend:** HTML, CSS  
+- **Deployment:** Local (demo-ready architecture for Render/Streamlit integration)  
+
+---
+
+## **Installation and Setup**
+Please refer to the `requirements.txt` file for a list of dependencies required to run the project locally.
+
+---
+
+## **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-# Contributing
-If you'd like to contribute to this project, please follow these steps:
-Fork the repository.
-Create a new branch for your changes.
-Submit a pull request with a clear description of the changes you've made.
+---
+
+## **Contributing**
+If you'd like to contribute to this project, please follow these steps:  
+1. Fork the repository.  
+2. Create a new branch for your changes.  
+3. Submit a pull request with a clear description of the changes you've made.
+
+---
+
+## **Disclaimer**
+- This project is for **educational and demonstration purposes only**.  
+- **Not intended for clinical or diagnostic use**.  
