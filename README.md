@@ -5,7 +5,7 @@
 - Includes **data preprocessing** (scaling and encoding) for accurate and consistent predictions.  
 - 🎬 **Watch the project demo:** [HART on YouTube](https://www.youtube.com/watch?v=Qbb6hJWcU1s)
 
----
+--
 
 ## **Dataset Overview**
 - **Dataset Name:** Heart Disease Dataset (Kaggle)  
