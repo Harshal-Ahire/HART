@@ -68,24 +68,6 @@
 
 ---
 
-## **Installation and Setup**
-Please refer to the `requirements.txt` file for a list of dependencies required to run the project locally.  
-
----
-
-## **License**
-This project is licensed under the MIT License. See the LICENSE file for details.  
-
----
-
-## **Contributing**
-If you'd like to contribute to this project, please follow these steps:  
-1. Fork the repository.  
-2. Create a new branch for your changes.  
-3. Submit a pull request with a clear description of the changes you've made.  
-
----
-
 ## **Disclaimer**
 - This project is for **educational and demonstration purposes only**.  
-- **Not intended for clinical or diagnostic use**.  
+- **Not intended for clinical use**.  
